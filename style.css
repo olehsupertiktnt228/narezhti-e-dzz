@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
+    
+    transition: 1s;
+  
+}
+
+.inputContainer {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+
+    justify-content: space-between;
+}
+
+.weatherResult {
+    transition: 1s;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#winddeg {
+    display: none;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border:  solid grey;
+    position: relative;
+    cursor: pointer;
+    transition: 2s;
+    outline: none;
+}
+button{
+    width: 150px;
+  display: flex;
+    height: 50px;
+    border-radius: 12px;
+    border: solid grey;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+  
+    
+    
+}
+
+button:hover {
+    width: 160px;
+    height: 60px;
+ transition: 2s;
+ box-shadow: 10px 5px 5px black;
+
+  }
+input:hover {
+    width: 320px;
+    height: 60px;
+ transition: 2s;
+ box-shadow: 10px 5px 5px black;
+
+
+  
+  }
